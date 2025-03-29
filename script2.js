@@ -70,8 +70,12 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("keydown", playVideo);
 });
 
+
 //shery js
+Shery.makeMagnet(".logo" /* Element to target.*/, {
 
-
-
+   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+   duration: 1,
+ });
+Shery.mouseFollower();
 
